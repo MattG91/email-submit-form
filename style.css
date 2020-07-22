@@ -1,0 +1,59 @@
+/***** General styles *****/
+.center {
+  text-align: center;
+  justify-content: center;
+}
+
+/***** Flexbox styles *****/
+
+
+label, input {
+  width: 100%;
+  display: block;
+  margin: 5px;
+}
+
+/***** form stylings *****/
+form {
+  background-color: aquamarine;
+}
+
+form button {
+  margin: 10;
+}
+
+fieldset {
+  border: 0;
+}
+
+form label, form button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+label {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+}
+
+/***** Media Queries *****/
+@media all and (min-width: 800px) {
+  .group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    flex: 1;
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+}
