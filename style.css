@@ -15,7 +15,7 @@ label, input {
 
 /***** form stylings *****/
 form {
-  background-color: aquamarine;
+  background-color: white;
 }
 
 form button {
@@ -27,7 +27,7 @@ fieldset {
 }
 
 form label, form button {
-  background-color: black;
+  background-color: #E7BB41;
   color: white;
   border-radius: 5px;
 }
